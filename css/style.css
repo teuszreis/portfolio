@@ -1264,7 +1264,7 @@ ul, ol {
     font-size: 1.25rem;
     cursor: pointer;
     z-index: 999;
-    box-shadow: 0 5px 20px var(--neon-glow);
+    box-shadow: 0 5px 20px rgba(140, 0, 255, 0.6);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
