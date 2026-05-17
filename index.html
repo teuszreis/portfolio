@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matheus Reis | Portfólio</title>
+    <meta name="description" content="Portfólio de Matheus William Vieira Dos Reis - Estudante de Defesa Cibernética e Sistemas de Informação.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E💻%3C/text%3E%3C/svg%3E">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("YIw750EgqZT5qPNhA");
+        })();
+    </script>
+</head>
+<body>  
+
+    <div id="cursor"></div>
+
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="neon">&lt;</span>Portfólio<span class="neon">/&gt;</span>
+            </div>
+            <div class="nav-links-desktop">
+                <a href="#home">~/home</a>
+                <a href="#sobre">~/sobre</a>
+                <a href="#formacao">~/formação</a>
+                <a href="#cursos">~/cursos</a>
+                <a href="#skills">~/skills</a>
+                <a href="#projetos">~/projetos</a>
+                <a href="#contato">~/contato</a>
+            </div>
+            <div class="nav-mobile-btn">
+                <button id="btn-menu" aria-label="Abrir menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <a href="#home">~/home</a>
+            <a href="#sobre">~/sobre</a>
+            <a href="#formacao">~/formação</a>
+            <a href="#cursos">~/cursos</a>
+            <a href="#skills">~/skills</a>
+            <a href="#projetos">~/projetos</a>
+            <a href="#contato">~/contato</a>
+        </div>
+    </nav>
+
+    <main>
+
+        <!--HOME-->
+        <section id="home" class="hero-section">
+            <div class="hero-bg-grid"></div>
+            <div class="hero-glow-neon"></div>
+            <div class="hero-glow-blue"></div>
+
+            <div class="section-container hero-inner">
+                <div class="hero-content reveal active">
+                    <div class="hero-badge">
+                        <i class="fa-solid fa-terminal"></i> Hello World
+                    </div>
+                    <h1 class="hero-title">
+                        Matheus Reis</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        &gt; <span class="text-gradient">Defesa Cibernética</span> | Sistemas de Informação
+                    </h2>
+                    <p class="hero-description">
+                        Em busca da primeira oportunidade como Estagiário em TI. Focado em aplicar meus conhecimentos em programação e segurança da informação para construir soluções resilientes.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projetos" class="btn btn-neon glow-btn">
+                            <i class="fa-solid fa-code"></i> Ver Projetos
+                        </a>
+                        <a href="#contato" class="btn btn-blue glow-btn-blue">
+                            <i class="fa-solid fa-envelope"></i> Contatar
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-terminal reveal active">
+                    <div class="glass-card terminal-card">
+                        <div class="terminal-header">
+                            <div class="terminal-dot dot-red"></div>
+                            <div class="terminal-dot dot-yellow"></div>
+                            <div class="terminal-dot dot-green"></div>
+                            <span class="terminal-title">guest@matheus-portfolio:~</span>
+                        </div>
+                        <div class="terminal-body" id="terminal-window">
+                            <p class="terminal-prompt">matheus@root:~$ ./init_portfolio.sh</p>
+                            <div id="terminal-text"></div>
+                            <span class="terminal-cursor">_</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--SOBRE-->
+        <section id="sobre" class="section section-alt">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <h2><span class="neon">01.</span> Sobre Mim</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="glass-card about-card reveal">
+                    <div class="about-grid">
+                        <div class="about-avatar-col">
+                            <div class="profile-avatar"></div>
+                        </div>
+                        <div class="about-text-col">
+                            <h3>Olá, eu sou o Matheus</h3>
+                            <p>
+                                Sou um estudante dedicado de <strong class="neon">Defesa Cibernética</strong> e <strong class="accent-blue">Sistemas de Informação</strong>, movido pela paixão por tecnologia e segurança de dados. Estou em busca da minha primeira oportunidade profissional como Estagiário em TI.
+                            </p>
+                            <p>
+                                Meu objetivo é aplicar e expandir meus conhecimentos práticos em programação e segurança da informação em um ambiente corporativo dinâmico, contribuindo proativamente para a proteção e eficiência dos sistemas da empresa.
+                            </p>
+                            <div class="about-info-grid">
+                                <div class="about-info-item">
+                                    <i class="fa-solid fa-location-dot neon"></i> Contagem, Minas Gerais
+                                </div>
+                                <div class="about-info-item">
+                                    <i class="fa-solid fa-envelope accent-blue"></i> matheusemail2104@gmail.com
+                                </div>
+                                <div class="about-info-item">
+                                    <i class="fa-brands fa-linkedin accent-blue"></i> www.linkedin.com/in/matheus-william-347119356
+                                </div>
+                                <div class="about-info-item">
+                                    <i class="fa-solid fa-language neon"></i> PT (Nativo) | EN (Avançado)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--ORMAÇÃO-->
+        <section id="formacao" class="section">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <h2><span class="neon">02.</span> Formação Acadêmica</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="education-grid reveal">
+                    <!-- Card 1 -->
+                    <div class="glass-card edu-card edu-card-neon">
+                        <div class="edu-card-bg-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                        <div class="edu-card-header">
+                            <div class="edu-icon-box edu-icon-neon">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <div>
+                                <h3>Defesa Cibernética</h3>
+                                <p class="edu-institution">Estácio</p>
+                            </div>
+                        </div>
+                        <p class="edu-description">Graduação tecnológica com foco em proteção de redes, análise de vulnerabilidades, resposta a incidentes e forense digital.</p>
+                        <div class="edu-badge edu-badge-neon">Cursando • Conclusão: 06/2028</div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="glass-card edu-card edu-card-blue">
+                        <div class="edu-card-bg-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <div class="edu-card-header">
+                            <div class="edu-icon-box edu-icon-blue">
+                                <i class="fa-solid fa-university"></i>
+                            </div>
+                            <div>
+                                <h3>Sistemas de Informação</h3>
+                                <p class="edu-institution">Anhanguera (EAD)</p>
+                            </div>
+                        </div>
+                        <p class="edu-description">Bacharelado abordando engenharia de software, banco de dados, gestão de TI, lógica de programação e desenvolvimento full-stack.</p>
+                        <div class="edu-badge edu-badge-blue">Cursando • Conclusão: 06/2030</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--CURSOS-->
+        <section id="cursos" class="section section-alt">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <h2><span class="neon">03.</span> Cursos e Certificações</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="courses-grid reveal">
+                    <!-- Google Cyber -->
+                    <div class="glass-card course-card course-neon">
+                        <div class="course-icon-wrap">
+                            <i class="fa-brands fa-google"></i>
+                        </div>
+                        <h3>Profissional de Cibersegurança</h3>
+                        <p>Google (Coursera)</p>
+                    </div>
+                    <!-- Google IT -->
+                    <div class="glass-card course-card course-blue">
+                        <div class="course-icon-wrap">
+                            <i class="fa-brands fa-google"></i>
+                        </div>
+                        <h3>Suporte em TI</h3>
+                        <p>Google (Coursera)</p>
+                    </div>
+                    <!-- Cisco -->
+                    <div class="glass-card course-card course-blue">
+                        <div class="course-icon-wrap">
+                            <i class="fa-solid fa-network-wired"></i>
+                        </div>
+                        <h3>Packet Tracer</h3>
+                        <p>Cisco (Networking Academy)</p>
+                    </div>
+                    <!-- Python -->
+                    <div class="glass-card course-card course-yellow">
+                        <div class="course-icon-wrap">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+                        <h3>Automação de Segurança com Python</h3>
+                        <p>Google (Coursera)</p>
+                    </div>
+                    <!-- Microsoft -->
+                    <div class="glass-card course-card course-blue">
+                        <div class="course-icon-wrap">
+                            <i class="fa-brands fa-microsoft"></i>
+                        </div>
+                        <h3>AZ-900: Azure Fundamentals</h3>
+                        <p>Microsoft</p>
+                    </div>
+                    <!-- Oracle -->
+                    <div class="glass-card course-card course-red">
+                        <div class="course-icon-wrap">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <h3>OCI Foundations Associate</h3>
+                        <p>Oracle</p>
+                    </div>
+                    <!-- RedTeam -->
+                    <div class="glass-card course-card course-red courses-col-center">
+                        <div class="course-icon-wrap">
+                            <i class="fa-solid fa-user-secret"></i>
+                        </div>
+                        <h3>Certified Cybersecurity Educator (CCEP)</h3>
+                        <p>RedTeam Leaders</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--SKILLS-->
+        <section id="skills" class="section">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <h2><span class="neon">04.</span> Skills</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Hard Skills -->
+                    <div class="reveal">
+                        <h3 class="skills-col-title">
+                            <i class="fa-solid fa-code neon"></i> Hard Skills
+                        </h3>
+                        <div class="hard-skills-list">
+                            <div class="skill-group">
+                                <h4 class="skill-group-title">Linguagens de Programação</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag"><i class="fa-brands fa-python" style="color:#eab308"></i> Python</span>
+                                    <span class="skill-tag"><i class="fa-brands fa-js" style="color:#fde047"></i> JavaScript</span>
+                                    <span class="skill-tag"><i class="fa-brands fa-java" style="color:#ef4444"></i> Java</span>
+                                    <span class="skill-tag"><i class="fa-brands fa-html5" style="color:#f97316"></i> HTML</span>
+                                    <span class="skill-tag"><i class="fa-brands fa-css3-alt" style="color:#60a5fa"></i> CSS</span>
+                                    <span class="skill-tag"><i class="fa-solid fa-database" style="color:#9ca3af"></i> SQL</span>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <h4 class="skill-group-title">Sistemas e Ferramentas</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag"><i class="fa-brands fa-linux"></i> Linux</span>
+                                    <span class="skill-tag"><i class="fa-brands fa-windows" style="color:#60a5fa"></i> Windows</span>
+                                    <span class="skill-tag"><i class="fa-solid fa-network-wired neon-i"></i> Redes / Packet Tracer</span>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <h4 class="skill-group-title">Segurança Cibernética</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag skill-tag-neon"><i class="fa-solid fa-shield-check"></i> Fundamentos de SI</span>
+                                    <span class="skill-tag skill-tag-neon"><i class="fa-solid fa-bug"></i> Gestão de Vulnerabilidades</span>
+                                    <span class="skill-tag skill-tag-neon"><i class="fa-solid fa-robot"></i> Automação de Scripts</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="reveal delay-100">
+                        <h3 class="skills-col-title">
+                            <i class="fa-solid fa-users accent-blue"></i> Soft Skills
+                        </h3>
+                        <div class="soft-skills-grid">
+                            <div class="glass-card soft-card">
+                                <div class="soft-icon accent-blue"><i class="fa-solid fa-check-circle"></i></div>
+                                <div>
+                                    <h4>Responsabilidade</h4>
+                                    <p>Comprometimento em cumprir obrigações e assumir responsabilidades.</p>
+                                </div>
+                            </div>
+                            <div class="glass-card soft-card">
+                                <div class="soft-icon accent-blue"><i class="fa-solid fa-brain"></i></div>
+                                <div>
+                                    <h4>Inteligência</h4>
+                                    <p>Capacidade de compreender conceitos complexos e resolver problemas.</p>
+                                </div>
+                            </div>
+                            <div class="glass-card soft-card">
+                                <div class="soft-icon accent-blue"><i class="fa-solid fa-bolt"></i></div>
+                                <div>
+                                    <h4>Proatividade</h4>
+                                    <p>Iniciativa para identificar e abordar questões preventivamente.</p>
+                                </div>
+                            </div>
+                            <div class="glass-card soft-card">
+                                <div class="soft-icon accent-blue"><i class="fa-solid fa-clipboard-list"></i></div>
+                                <div>
+                                    <h4>Disciplina</h4>
+                                    <p>Capacidade de manter-se focado e seguir rotinas estabelecidas.</p>
+                                </div>
+                            </div>
+                            <div class="glass-card soft-card">
+                                <div class="soft-icon accent-blue"><i class="fa-solid fa-fire"></i></div>
+                                <div>
+                                    <h4>Empenho</h4>
+                                    <p>Dedicação para alcançar metas e superar desafios com determinação.</p>
+                                </div>
+                            </div>
+                            <div class="glass-card soft-card">
+                                <div class="soft-icon accent-blue"><i class="fa-solid fa-handshake"></i></div>
+                                <div>
+                                    <h4>Respeito</h4>
+                                    <p>Consideração pelas perspectivas alheias, demonstrando empatia.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--PROJETOS-->
+        <section id="projetos" class="section section-alt">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <h2><span class="neon">05.</span> Projetos Acadêmicos</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle">Experiências práticas e laboratórios simulando ambientes reais de cibersegurança e infraestrutura de redes.</p>
+                </div>
+
+                <div class="projects-grid reveal">
+                    <!--Project 1-->
+                    <div class="glass-card project-card project-card-neon">
+                        <div class="project-img project-img-dark">
+                            <div class="project-img-overlay project-img-overlay-neon"></div>
+                            <i class="fa-solid fa-radar project-icon project-icon-neon"></i>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-title-row">
+                                <h3>Scanner de Portas em Python</h3>
+                                <a href="https://github.com/teuszreis/python-port-scanner?tab=readme-ov-file" target="_blank" class="project-link"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                            <p class="project-desc">Ferramenta de reconhecimento de rede desenvolvida para identificar portas abertas e serviços em execução em hosts específicos. Utiliza threading para otimizar a velocidade da varredura.</p>
+                            <div class="project-tags">
+                                <span class="tag tag-neon">Python</span>
+                                <span class="tag tag-gray">Sockets</span>
+                                <span class="tag tag-gray">Redes</span>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+
+        <section id="contato" class="section">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <h2><span class="neon">06.</span> Contato</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle">Aberto a oportunidades de estágio e novas conexões.</p>
+                </div>
+
+                <div class="contact-grid reveal">
+                    <div class="contact-info">
+                        <h3>Vamos Conversar?</h3>
+                        <p>Estou atualmente buscando uma posição de <strong>Estágio em TI</strong>. Se a sua empresa está contratando ou se você quiser apenas trocar ideias sobre tecnologia, cibersegurança e programação, fique à vontade para entrar em contato!</p>
+
+                        <div class="contact-items">
+                            <div class="contact-item">
+                                <div class="contact-icon contact-icon-neon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <p class="contact-label">E-mail</p>
+                                    <p class="contact-value">matheusemail2104@gmail.com</p>
+                                </div>
+                                <button id="copy-email-btn" class="copy-btn">
+                                    <i class="fa-regular fa-copy"></i> Copiar
+                                </button>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon contact-icon-blue">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div>
+                                    <p class="contact-label">Telefone / WhatsApp</p>
+                                    <p class="contact-value">+55 (31) 9 9070-6160</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon contact-icon-blue">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </div>
+                                <div>
+                                    <p class="contact-label">LinkedIn</p>
+                                    <a href="https://linkedin.com/in/matheus-william-347119356" target="_blank" class="contact-link">matheus-william-347119356</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card contact-form-card">
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nome</label>
+                                <input type="text" id="name" name="name" required placeholder="Seu nome completo">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" required placeholder="seu.email@exemplo.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensagem</label>
+                                <textarea id="message" name="message" rows="4" required placeholder="Olá Matheus, gostei do seu perfil..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-neon btn-block glow-btn">
+                                <i class="fa-solid fa-paper-plane"></i> Enviar Mensagem
+                            </button>
+                            <div id="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="footer-container">
+            <p class="footer-copy">&copy; <script>document.write(new Date().getFullYear())</script> Matheus William Vieira Dos Reis.</p>
+            <p class="footer-sub">Desenvolvido com <i class="fa-solid fa-shield-halved"></i> foco em Cibersegurança.</p>
+        </div>
+    </footer>
+
+    <button id="back-to-top" aria-label="Voltar ao topo">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
